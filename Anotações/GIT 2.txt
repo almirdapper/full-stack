@@ -41,6 +41,10 @@ git push -u origin master
 ____________________________________________________________________
 -------------------Verificar Arquivos Alterados -------------------
 git diff HEAD~1
+
+comparar dois arquivos:
+
+git diff (codigo do commit) (codigo do commit)
 ____________________________________________________________________
 -------------------navegar no reposiorio-------------------
 git log  pega o codigo do log
@@ -57,6 +61,9 @@ git checkout -- HEAD pasta
 ou 
 
 git revert codigo-log-do-comiit
+
+apagar o commit mas esse deve omar bastante cuidade:
+git reser --hard <comiit>
 ____________________________________________________________________
 -------------------Trazer Alteraçoes para pasta local-------------------
 
