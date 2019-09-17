@@ -1,0 +1,86 @@
+ Git e Git HUB
+____________________________________________________________________
+-------------------configura primeiramente o acesso-------------------
+
+$ git config --global user.name "YOUR NAME"
+$ git config --global user.email "YOUR EMAIL ADDRESS"
+
+____________________________________________________________________
+-------------------Criar nova pasta-------------------
+(vc seleciona a pasta q vc esta e cria um arquivo)
+
+git init  (inicialiaza repositorio do zero)
+git clone (copia repositorio)
+
+____________________________________________________________________
+-------------Clonar um projeto-------------------
+
+git clone ''
+____________________________________________________________________
+-------------Adicionar Novas auteraçoes-------------------
+
+git status (verifica arquivos a ser adicionado eles aparecem em vermelho)
+
+git add . (adiciona todos os arquivos para ser comitado)
+
+git commit -m "coment�rio qualquer"  (comita e prepara para ser enviada)
+
+____________________________________________________________________
+-------------------Adicionar Para Repositorio -------------------
+
+sem clonar:
+
+git remote add origin https://github.com/almirdapper/teste2.git
+git push -u origin master
+
+ao clonar verifica :
+git remote -v 
+
+se o caminho e esse e apenas 
+git push -u origin master
+____________________________________________________________________
+-------------------Verificar Arquivos Alterados -------------------
+git diff HEAD~1
+____________________________________________________________________
+-------------------navegar no reposiorio-------------------
+git log  pega o codigo do log
+git checkout codigo o log
+____________________________________________________________________
+-------------------desfazer auteracoes-------------------
+
+sem commit:
+git checkout -- pasta
+
+depois do commit:
+git checkout -- HEAD pasta
+
+ou 
+
+git revert codigo-log-do-comiit
+____________________________________________________________________
+-------------------Trazer Alteraçoes para pasta local-------------------
+
+git pull
+
+____________________________________________________________________
+-------------------Criar Novo Brach-------------------
+
+git checkout -b nova-branch
+____________________________________________________________________
+-------------------Subir novo Branch-------------------
+git push origin nova-branch
+____________________________________________________________________
+-------------------Alterar Para Novo branch-------------------
+git checkout master
+____________________________________________________________________
+-------------------voltar para branch anterior----------------
+git checkout -
+____________________________________________________________________
+-------------------remover branch local --------------------
+git branch -d branch
+____________________________________________________________________
+-------------------remover branch remota--------------------
+git push --delete origin branch
+____________________________________________________________________
+------------------juntar arquivos de branch-----------------
+git merge mastergigi
