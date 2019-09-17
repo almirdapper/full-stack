@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif; 
+}
+
+.clear{
+	clear: both;
+}
+
+html,body{
+	height: 100%;
+}
+
+.container{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*Trabalhando com Header do Site*/
+
+header{
+	padding: 20px;
+}
+
+header .logo{
+	float: left;
+	width: 150px;
+}
+
+header nav{
+	float: right;
+}
+
+header nav ul{
+	list-style-type: none;
+	padding: 8px 0;
+}
+
+header nav ul li{
+	float: left;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 0 20px;
+}
+
+header nav ul a{
+	text-decoration: none;
+	color: #b4b4b4;
+}
+
+/*Trabalhando com Header do Site*/

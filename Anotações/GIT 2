@@ -1,0 +1,43 @@
+"Em constru��o"
+ Git e Git HUB
+
+--configura primeiramente o acesso
+
+$ git config --global user.name "YOUR NAME"
+$ git config --global user.email "YOUR EMAIL ADDRESS"
+
+--Clonar um projeto
+
+git clone ''
+
+git add
+git commit -m "coment�rio qualquer"
+
+git push Push (empurrar) � usado para publicar todos os seus commits para o github.
+Neste momento, ser� pedido a sua senha.
+
+git pull tras dados do projeto para local
+______________________________"" branch
+
+--criar um novo branch
+git checkout -b nova-branch
+
+-- subir repositorio novo para remoto
+
+git push origin nova-branch
+
+--altrar ntr branch
+git checkout master
+
+--voltar para branch anterior
+git checkout -
+
+--remover branch localgit
+
+git branch -d branch
+
+--remover branch remota
+git push --delete origin branch
+
+--juntar arquivos de branch
+git merge mastergigi
