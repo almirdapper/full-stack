@@ -69,6 +69,9 @@ ____________________________________________________________________
 
 git pull
 
+ou 
+
+git fetch ( esse tras os arquivos mas não junta é preciso depois fazer um rebease ou merge)
 ____________________________________________________________________
 -------------------Criar Novo Brach-------------------
 
@@ -91,3 +94,39 @@ git push --delete origin branch
 ____________________________________________________________________
 ------------------juntar arquivos de branch-----------------
 git merge mastergigi
+
+
+git rebease (esse apaga o um commit e junta o outro depois colocoa novamente)
+
+para resolver conflito com git rebase vc entra no arquivo verifica o conflito
+resolve apos vc da um:
+
+git add
+
+git rebase --continue
+
+____________________________________________________________________
+
+------------------GIT TAG-----------------
+como se fosse uma branch ele cria um arquivo com os dados apartir daquele ponto
+mas diferente da branch ele não pode mais ser auterado (commit)
+serve para marcar versoes exemplo
+
+git tag v1.0
+
+ai sobe para diretorio 
+
+push -u origin v1.0
+
+____________________________________________________________________
+fork(copia um projeto do github para o seu para editar)
+
+Issues (bugs de seus projetos. Eles são como o email - exceto que podem ser compartilhados e 
+discutidos com o restante da sua equipe. A maioria dos projetos de software possui algum tipo 
+de rastreador de erros. O rastreador do GitHub é chamado de Issues  )
+
+____________________________________________________________________
+
+Checkout em Pull Request
+
+git fetch origin pull/ID/head:Branch(ela cria uma branch com os commits do pull request)
