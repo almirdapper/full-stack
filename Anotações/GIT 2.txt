@@ -130,3 +130,34 @@ ____________________________________________________________________
 Checkout em Pull Request
 
 git fetch origin pull/ID/head:Branch(ela cria uma branch com os commits do pull request)
+
+____________________________________________________________________
+-------------------------.gitignore----------------------------
+notepad .gitignore
+
+arquivo que vc coloca os arquivos ou pastas q vc não quer que seja commitado
+eles são ignorados
+
+____________________________________________________________________
+----------------------------Git commit amend ----------------
+autera ultimo comiit
+
+____________________________________________________________________
+----------------git stash ---------------------------------
+quando quer mudar de branch e não recisar comitar
+
+git stash list (mosrta listas de arquivos em stash)
+
+git stash pop ( volta ultimo arquivo na branch em stash)
+____________________________________________________________________
+---------------------git blame --------------------------------
+git blame (arquivo)  verica autor de cada auteraçao por linha
+
+____________________________________________________________________
+--------------------git chjeryPick  ----------------------------
+
+git chjeryPick (codigo do commit)
+
+aplica auteraçoe de um commit de uma outra branch na brench atual
+
+____________________________________________________________________
