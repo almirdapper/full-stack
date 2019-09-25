@@ -370,9 +370,73 @@ section.social .facebook-chamada p{
 	padding: 10px 0;
 	font-size: 13px;
 }
+
+
 /*section social*/
 /*--------------------------------------------------------------------------------------------------------------*/
 
+
+/*section contato --------------------------------------------------------------------------------------------*/
+
+section.contato .container{
+	max-width: 500px;
+	text-align: center;
+}
+
+section.contato{
+	padding:60px 2%;
+}
+
+section.contato > h2{
+	color: #698293;
+	text-align: center;
+	font-size: 18px;
+}
+
+section.contato form{
+	width: 100%;
+	max-width: 500px;
+	
+}
+
+section.contato .container span{
+	font-size: 15px;
+	color: #b4b4b4;
+	text-align: left;
+}
+
+section.contato .form-wraper{
+	float: left;
+	
+	padding: 0 10px;
+}
+
+section.contato .w100{
+	width: 100%;
+
+}
+
+section.contato .container .wraper-contato{
+	text-align: left;
+}
+
+section.contato .w50{
+	width: 50%;
+	
+}
+
+section.contato .form-wraper input[type=text]{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 9px;
+	border: 1px solid #dadada;
+	margin-top: 8px;
+
+}
+
+
+/*section contato --------------------------------------------------------------------------------------------*/
 
 
 /*-----------------------------------------------------------------------------------------*/
